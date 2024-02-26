@@ -15,7 +15,6 @@ export const Hero = () => {
   let int
 
   const changeFunc = () => {
-    console.log(imgIndex);
     if (imgIndex === 2) {
       setImgIndex(0)
     } else {

@@ -1,0 +1,47 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        color: white;
+        background-color: #AF7627;
+        display: inline;
+        padding: 1rem;
+        border: 2px solid black;
+        font-size: 2.5rem;
+        margin: 1rem 3rem;
+        font-family: 'Odibee Sans';
+    }
+
+    .linksAndSearch {
+        display: flex;
+        margin: 1rem 3rem;
+        gap: 1rem;
+
+        ul {
+            display: flex;
+            gap: 1rem;
+            
+            a {
+                color: white;
+                text-decoration: none;
+                
+            }
+        }
+
+        input {
+            height: fit-content;
+        }
+    }
+
+    .blackThing {
+        position: absolute;
+        top: 0;
+        z-index: -10;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 60%, 0 100%);
+    }
+}

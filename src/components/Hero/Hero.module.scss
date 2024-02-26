@@ -1,6 +1,10 @@
 .wrapper {
+    position: absolute;
+    top: 0;
+    z-index: -100;
     width: 100%;
-    height: 400px;
+    height: 450px;
+    border-bottom: 12px solid black;
 
     .carouselImg {
         object-fit: cover;
