@@ -2,3 +2,11 @@
     position: relative;
     width: 100%;
 }
+
+.selectedHouses {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    translate: 0 -15%;
+}

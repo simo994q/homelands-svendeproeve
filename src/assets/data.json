@@ -1,0 +1,185 @@
+[
+    {
+        "id": "18",
+        "address": "Lindholm Brygge 9",
+        "zipcode": "9400",
+        "city": "Nørresundby",
+        "type": "Ejerlejlighed",
+        "energy_label_name": "C",
+        "price": "1198000.00",
+        "payout": "60000.00",
+        "cost": "3036.00",
+        "floor_space": "95",
+        "num_rooms": "4",
+        "year_construction": "1967",
+        "num_clicks": "34",
+        "images": [
+            {
+                "id": "2",
+                "author": "Colourbox",
+                "description": "Lejlighed",
+                "file": "apartment-2.jpg",
+                "is_main": "1",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/apartment-2.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/apartment-2.jpg"
+                }
+            },
+            {
+                "id": "5",
+                "author": "Colourbox",
+                "description": "Badeværelse",
+                "file": "bathroom-2.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/bathroom-2.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/bathroom-2.jpg"
+                }
+            },
+            {
+                "id": "8",
+                "author": "Colourbox",
+                "description": "Soveværelse",
+                "file": "bedroom-1.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/bedroom-1.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/bedroom-1.jpg"
+                }
+            },
+            {
+                "id": "21",
+                "author": "Colourbox",
+                "description": "Køkken",
+                "file": "kitchen-1.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/kitchen-1.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/kitchen-1.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "address": "Sigrid Undsets Vej 3",
+        "zipcode": "9220",
+        "city": "Aalborg SØ",
+        "type": "Ejerlejlighed",
+        "energy_label_name": "D",
+        "price": "2495000.00",
+        "payout": "120000.00",
+        "cost": "2635.00",
+        "floor_space": "84",
+        "num_rooms": "3",
+        "year_construction": "1912",
+        "num_clicks": "11",
+        "images": [
+            {
+                "id": "1",
+                "author": "Colourbox",
+                "description": "Lejlighed",
+                "file": "apartment-1.jpg",
+                "is_main": "1",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/apartment-1.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/apartment-1.jpg"
+                }
+            },
+            {
+                "id": "7",
+                "author": "Colourbox",
+                "description": "Bad/Toilet",
+                "file": "bathroom-4.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/bathroom-4.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/bathroom-4.jpg"
+                }
+            },
+            {
+                "id": "8",
+                "author": "Colourbox",
+                "description": "Soveværelse",
+                "file": "bedroom-1.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/bedroom-1.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/bedroom-1.jpg"
+                }
+            },
+            {
+                "id": "25",
+                "author": "Colourbox",
+                "description": "Spisestue",
+                "file": "livingroom-1.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/livingroom-1.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/livingroom-1.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "address": "Struervej 70",
+        "zipcode": "9220",
+        "city": "Aalborg SØ",
+        "type": "Villa",
+        "energy_label_name": "C",
+        "price": "2095000.00",
+        "payout": "105000.00",
+        "cost": "2636.00",
+        "floor_space": "135",
+        "num_rooms": "5",
+        "year_construction": "1976",
+        "num_clicks": "135",
+        "images": [
+            {
+                "id": "17",
+                "author": "Colourbox",
+                "description": "Villa",
+                "file": "house-3.jpg",
+                "is_main": "1",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/house-3.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/house-3.jpg"
+                }
+            },
+            {
+                "id": "9",
+                "author": "Colourbox",
+                "description": "Soveværelse",
+                "file": "bedroom-2.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/bedroom-2.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/bedroom-2.jpg"
+                }
+            },
+            {
+                "id": "11",
+                "author": "Colourbox",
+                "description": "Soveværelse",
+                "file": "bedroom-4.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/bedroom-4.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/bedroom-4.jpg"
+                }
+            },
+            {
+                "id": "14",
+                "author": "Colourbox",
+                "description": "Have",
+                "file": "garden-3.jpg",
+                "is_main": "0",
+                "filename": {
+                    "medium": "https://api.mediehuset.net/images/homelands/medium/garden-3.jpg",
+                    "large": "https://api.mediehuset.net/images/homelands/large/garden-3.jpg"
+                }
+            }
+        ]
+    }
+]

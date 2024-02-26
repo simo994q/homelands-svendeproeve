@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    z-index: 200;
+    transition: 400ms;
+    background-color: #eeeeeeaa;
+    max-width: 300px;
+
+    .houseImg {
+        width: 100%;
+    }
+
+    .titleAndFav {
+        display: flex;
+        h1 {
+            font-size: 1rem;
+        }
+    }
+
+    .zip {}
+
+    .type {}
+
+    .energyDiv {
+
+        h4 {}
+
+        p {}
+    }
+
+    .price {}
+}
+
+
+.wrapper:hover {
+    scale: 1.05;
+}
