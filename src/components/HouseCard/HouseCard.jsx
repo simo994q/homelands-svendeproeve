@@ -26,6 +26,10 @@ export const HouseCard = ({ houseData }) => {
                 return '#D27E17'
             case 'E':
                 return '#CB4C23'
+            case 'F':
+                return '#BC4C23'
+            case 'G':
+                return '#AB4C23'
         }
     }
 

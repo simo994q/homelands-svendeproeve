@@ -51,20 +51,20 @@ export const Housespage = () => {
             <h1 style={{ marginBottom: '100px' }}>???</h1>
 
             <div className={style.wrapper}>
-                <div>
+                <div className={style.topLine}>
                     <h1>Boliger til salg</h1>
-                    <div>
-                        <p>Sorter efter prisniveau</p>
-                        {sortPrice ?
-                            <>
-                                <p>Maximum pris:</p>
-                                <input step="2000" onChange={(e) => setSortPrice({ ...sortPrice, current: e.target.value })} defaultValue={sortPrice.highest.price} type="range" min={sortPrice.lowest.price} max={sortPrice.highest.price} />
-                                <p>{sortPrice.current}</p>
-                            </>
-                            :
-                            <input type="range" min="10" max="10" />
-                        }
-                        <p></p>
+                    <div className={style.sortings}>
+                        <div className={style.range}>
+                            {sortPrice ?
+                                <>
+                                    <p>Max pris:</p>
+                                    <input step="2000" onChange={(e) => setSortPrice({ ...sortPrice, current: e.target.value })} defaultValue={sortPrice.highest.price} type="range" min={sortPrice.lowest.price} max={sortPrice.highest.price} />
+                                    <p>{sortPrice.current}</p>
+                                </>
+                                :
+                                <p>Loading...</p>
+                            }
+                        </div>
                         <select>
                             <option value="">Villa</option>
                             <option value="">Ejerlejlighed</option>

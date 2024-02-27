@@ -1,4 +1,36 @@
 .wrapper {
     margin: auto;
     max-width: 1000px;
+    padding: 0 3rem;
+
+    .topLine {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 0.75rem;
+
+        .sortings {
+            display: flex;
+            gap: 3rem;
+
+            .range {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+
+    .houses {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        .houses {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
