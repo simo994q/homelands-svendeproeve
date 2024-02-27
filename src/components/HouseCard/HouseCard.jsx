@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import { UserContext } from '../../context/UserContextProvider';
 
 export const HouseCard = ({ houseData }) => {
-    console.log(houseData);
 
     const { user, setUser } = useContext(UserContext)
 
