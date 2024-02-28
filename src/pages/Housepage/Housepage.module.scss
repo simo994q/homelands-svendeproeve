@@ -1,0 +1,62 @@
+.houseWrapper {
+    background-color: #ffffffaa;
+    border: 1px solid gray;
+    z-index: 200;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    .overview {
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+
+            .smallInfo {
+                display: flex;
+
+                p {
+                    padding: 0 1rem;
+                }
+
+                p:first-child {
+                    padding-left: 0;
+                }
+
+                p:not(:last-child) {
+                    border-right: 2px solid gray;
+                }
+            }
+        }
+
+        .images {
+            display: flex;
+            gap: 1rem;
+
+            img {
+                border-radius: 25%;
+                border: 1px solid gray;
+                padding: 1rem;
+                cursor: pointer;
+                aspect-ratio: 1 / 1;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .prices {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}
+
+@media (max-width: 1064px) {
+    .houseWrapper {
+        margin: 0 2rem;
+    }
+}

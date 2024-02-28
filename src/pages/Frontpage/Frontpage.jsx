@@ -6,11 +6,18 @@ import { HouseCard } from '../../components/HouseCard/HouseCard'
 import data from '../../assets/data.json'
 
 export const Frontpage = () => {
+
+    const images = [
+        "https://api.mediehuset.net/images/homelands/large/house-1.jpg",
+        "https://api.mediehuset.net/images/homelands/large/house-2.jpg",
+        "https://api.mediehuset.net/images/homelands/large/apartment-2.jpg"
+    ]
+
     return (
         <>
             <div className={style.heroWrapper}>
                 <Header />
-                <Hero />
+                <Hero images={images} />
             </div>
             <div className={style.selectedHouses}>
                 <HouseCard houseData={data[0]} />
