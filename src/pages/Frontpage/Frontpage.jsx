@@ -4,6 +4,7 @@ import { Hero } from '../../components/Hero/Hero'
 import style from './Frontpage.module.scss'
 import { HouseCard } from '../../components/HouseCard/HouseCard'
 import data from '../../assets/data.json'
+import { ReviewBox } from '../../components/ReviewBox/ReviewBox'
 
 export const Frontpage = () => {
 
@@ -24,6 +25,8 @@ export const Frontpage = () => {
                 <HouseCard houseData={data[1]} />
                 <HouseCard houseData={data[2]} />
             </div>
+            <h2 style={{ textAlign: 'center' }}>Det siger kunderne:</h2>
+            <ReviewBox />
         </>
     )
 }

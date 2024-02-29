@@ -9,30 +9,32 @@ export const Loginpage = () => {
 
     const { user, setUser } = useContext(UserContext)
 
-
     const [name, setName] = useState()
     const [pass, setPass] = useState()
 
-    const handleLogin = () => {
-        if (name === '123' && pass === '123') {
-            setUser({})
-            toast('logged ind')
+    const handleData = (data) => {
+        console.log(data);
+        if (data.status === 'Ok') {
+            toast('Logget ind')
+            setUser({ user: data.user, token: data.access_token, id: data.user_id })
         } else {
-            toast('something is wrong man')
+            toast('Brugernavn eller adgangskode er forkert')
+        }
+    }
+
+    const handleLogin = () => {
+        const body = new URLSearchParams()
+        body.append('username', name)
+        body.append('password', pass)
+
+        const options = {
+            method: 'POST',
+            body: body
         }
 
-        // const body = new URLSearchParams()
-        // body.append('username', name)
-        // body.append('password', pass)
-
-        // const options = {
-        //     method: 'POST',
-        //     body: body
-        // }
-
-        // fetch('https://api.mediehuset.net/token', options)
-        //     .then(res => res.json())
-        //     .then(data => console.log(data))
+        fetch('https://api.mediehuset.net/token', options)
+            .then(res => res.json())
+            .then(data => handleData(data))
     }
 
     return (
@@ -54,16 +56,16 @@ export const Loginpage = () => {
                 </form>
 
             </div>
-            <ToastContainer 
-            position="bottom-right"
-            autoClose={5000}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss={false}
-            draggable
-            pauseOnHover={false}
-            theme="light"
+            <ToastContainer
+                position="bottom-right"
+                autoClose={5000}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss={false}
+                draggable
+                pauseOnHover={false}
+                theme="light"
             />
         </>
     )
